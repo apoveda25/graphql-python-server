@@ -1,0 +1,15 @@
+type User {
+  _id: ID!
+  _key: ID!
+  email: String!
+  active: Boolean!
+  username: String!
+  first_name: String
+  last_name: String
+  image_url: String
+  created_at: DateTime!
+  created_by: ID!
+  updated_at: DateTime!
+  updated_by: ID!
+  has_rol: Rol!
+}

@@ -1,0 +1,11 @@
+type Rol {
+  _id: ID!
+  _key: ID!
+  name: String!
+  description: String!
+  created_at: DateTime!
+  created_by: ID!
+  updated_at: DateTime!
+  updated_by: ID!
+  has_scopes: [Scope]!
+}

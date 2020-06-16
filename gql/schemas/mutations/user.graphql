@@ -1,0 +1,3 @@
+extend type Mutation {
+  userCreate(user: UserCreate!): User
+}

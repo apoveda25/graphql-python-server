@@ -1,0 +1,6 @@
+enum ScopeAction {
+  READ
+  CREATE
+  UPDATE
+  DELETE
+}

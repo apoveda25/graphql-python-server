@@ -1,0 +1,5 @@
+input RolCreate {
+  key: ID!
+  name: String!
+  description: String!
+}

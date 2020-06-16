@@ -1,0 +1,6 @@
+input ScopeCreate {
+  name: String
+  description: String!
+  action: ScopeAction!
+  collection: String!
+}
