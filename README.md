@@ -6,7 +6,7 @@ Use it however you want, although it's just a starting point.
 
 ### Requirements
 
-1. Install pipenv `pip install pipenv`
+1. Install poetry `pip install poetry`
 
 ### Starting
 
@@ -14,10 +14,12 @@ Use it however you want, although it's just a starting point.
 
 2. Enter the repository folder `cd graphql-python-server/`
 
-3. Create a virtual environment `pipenv shell`
+3. Create a virtual environment `poetry shell`
 
-4. Install dependencies listed in **Pipfile** file `pipenv install`
+4. Open with vscode `code .`
 
-5. Start server `uvicorn app:app --reload --port 8000`
+5. Install dependencies `poetry install`
 
-6. Enter the url `http://localhost:8000/graphql/`
+6. Start server `uvicorn main:app --reload --port 8000`
+
+7. Enter the url `http://localhost:8000/graphql/`

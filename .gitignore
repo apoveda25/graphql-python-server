@@ -107,10 +107,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#Config vs code
-.vscode/
-
 #File of environment
 .env
+
+#Poetry
+poetry.lock
 
 # End of https://www.gitignore.io/api/python
